@@ -1,0 +1,134 @@
+body {
+  background-color: #F2F2F2;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+p {
+  font-size: 13px;
+  user-select: none;
+}
+
+label,
+p {
+  cursor: pointer;
+}
+
+textarea {
+  border: none;
+}
+
+kbd {
+  background-color: rgb(163, 163, 163);
+  color: #fff;
+
+}
+
+::placeholder {
+  color: rgb(163, 163, 163);
+  font-size: 13px;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(51, 51, 51);
+}
+
+.navbar-nav li a {
+  color: #F5F7FA;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-nav li:last-child a {
+  color: #DA4453;
+}
+
+.navbar-nav li a:hover {
+  color: #DA4453;
+}
+
+.navbar .container .title {
+  font-size: 36px;
+  color: #CBCBCB;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+.adsense {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* Editor header info */
+.header-editor1-info,
+.header-editor2-info,
+.header-result1-info,
+.header-result2-info {
+  color: rgb(163, 163, 163);
+  font-size: 13px;
+  margin: 10px 0 10px 10px;
+  display: inline-block;
+}
+
+.header-buttons {
+  float: right;
+  margin: 10px;
+}
+
+.search {
+  width: 120px;
+  height: 33px;
+  font-size: 13px;
+
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+
+/* Font awsome */
+.fas {
+  font-size: 17px;
+  color: rgb(163, 163, 163);
+  margin: -3px;
+
+}
+
+.fas:hover {
+  color: #0079FB;
+}
+
+/* for dev */
+.test {
+  border: 2px solid red;
+}
+
+.box {
+  height: 370px;
+  background-color: #fff;
+  /* border: 1px solid gray; */
+}
+
+/* borders */
+
+.br {
+  border-right: 1px solid gray;
+}
+
+.bb {
+  border-bottom: 1px solid gray;
+}
+
+/* footer */
+.footer {
+  background-color: rgb(44, 44, 44);
+  height: 50px;
+  margin-top: 40px;
+}
